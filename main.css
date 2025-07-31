@@ -33,7 +33,8 @@ a {
 }
 
 .Eu:hover, .seta:hover {
-    width: 300px;
+    width: 250px;
+    display: flex;
 }
 
 .link:hover {
