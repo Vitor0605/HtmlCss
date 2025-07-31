@@ -21,10 +21,6 @@ h1, h2{
   margin-bottom: 20px;
 }
 
-h2 {
-    margin-left: 20%;
-}
-
 a {
     display: flex;
     position: absolute;
