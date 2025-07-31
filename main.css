@@ -32,8 +32,9 @@ a {
     color: orange;
 }
 
-a:hover {
-    text-size: 40px;
+.link:hover {
+    color: black
+    font-size: 40px;
 }
 
 body {
