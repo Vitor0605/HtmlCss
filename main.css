@@ -5,10 +5,33 @@
 
 .Eu {
     width: 200px;
+    margin-left: 20%;
 }
 
 .seta {
     display: flex;
     position: absolute;
-    right: 0;
+    right: 280px;
+    top: 70px;
+}
+
+h1, h2{
+  text-align:  center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+a {
+    display: flex;
+    position: absolute;
+    right: 120px;
+    top: 150px; 
+}
+
+body {
+    border: 2px, solid, black;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
 }
