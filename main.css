@@ -28,6 +28,7 @@ a {
     position: absolute;
     right: 150px;
     top: 220px; 
+    text-decoration: none;
 }
 
 body {
