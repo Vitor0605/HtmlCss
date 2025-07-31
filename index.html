@@ -12,5 +12,26 @@
     <h2>Vitor José Gilherme Cardoso</h2>
     <img class="seta" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNNKcL2Obv939NzvYpzLCPzxZ81iI7TeDarA&s">
     <a class="link" href="pagina.html">Proxima Aula</a>
+      <div id="texto" onclick="moverTexto()">Clique para mover o texto!</div>
+
+    <script>
+        let clicks = 0;  // Contador de cliques
+        const maxClicks = 5;  // Número máximo de cliques
+        const texto = document.getElementById("texto");
+
+        function moverTexto() {
+            if (clicks < maxClicks) {
+                clicks++;
+                const maxX = window.innerWidth - texto.offsetWidth;
+                const maxY = window.innerHeight - texto.offsetHeight;
+
+                // Gerar uma nova posição aleatória dentro da tela
+                const x = Math.random() * maxX;
+                const y = Math.random() * maxY;
+
+                // Mover o texto para a nova posição
+                texto.style.left = `${x}px`;
+                texto.style.top = `${y}px`;
+            }}   </script>
 </body>
 </html>
