@@ -29,6 +29,11 @@ a {
     right: 150px;
     top: 220px; 
     text-decoration: none;
+    color: orange;
+}
+
+a:hover {
+    text-size: 40px;
 }
 
 body {
