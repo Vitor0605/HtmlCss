@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body {
+    border: 2px, solid, black;
+    border-radius: 10px;
+    margin: 50px;
+}
+
 .Eu {
     width: 200px;
     margin-left: 20%;
@@ -11,12 +17,23 @@
     -5px -5px gray; 
 }
 
+.Eu:hover {
+    box-shadow: 5px 5px gray,
+    -5px -5px black; 
+}
+
+
 .seta {
     display: flex;
     position: absolute;
     right: 280px;
     top: 150px;
     border-radius: 10px;
+}
+
+.seta:hover {
+    width: 220px;
+    display: flex;
 }
 
 h1, h2{
@@ -31,7 +48,7 @@ h2 {
     font-size: 30px;
 }
 
-a {
+.link {
     display: flex;
     position: absolute;
     right: 150px;
@@ -40,18 +57,8 @@ a {
     color: orange;
 }
 
-.seta:hover {
-    width: 220px;
-    display: flex;
-}
-
 .link:hover {
     font-size: 20px;
     color: black;
 }
 
-body {
-    border: 2px, solid, black;
-    border-radius: 10px;
-    margin: 50px;
-}
