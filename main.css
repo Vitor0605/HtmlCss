@@ -8,7 +8,7 @@
     margin-left: 20%;
     border-radius: 10px;
     box-shadow: 12px 15px black,
-        -12px -15px gray; 
+    -12px -15px gray; 
 }
 
 .seta {
@@ -40,7 +40,7 @@ a {
     color: orange;
 }
 
-.Eu:hover, .seta:hover {
+.seta:hover {
     width: 220px;
     display: flex;
 }
