@@ -25,6 +25,10 @@ h1, h2{
     font-size: 38px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 a {
     display: flex;
     position: absolute;
