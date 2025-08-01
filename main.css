@@ -57,10 +57,10 @@ h2 {
     color: orange;
 }
 
-.link:hover {
-    font-size: 20px;
-    color: black;
-}
+    .link:hover {
+      font-size: 20px;
+      color: black;
+    }
 
      h1 span {
       color: black;
@@ -68,13 +68,13 @@ h2 {
     }
 
     h1:hover span {
-      color: red; /* nova cor ao passar o mouse */
+      color: red;
     }
 
-    /* Efeito de delay por letra */
     h1 span:nth-child(1) { transition-delay: 0s; }
     h1 span:nth-child(2) { transition-delay: 0.05s; }
     h1 span:nth-child(3) { transition-delay: 0.1s; }
     h1 span:nth-child(4) { transition-delay: 0.15s; }
     h1 span:nth-child(5) { transition-delay: 0.2s; }
+    h1 span:nth-child(6) { transition-delay: 0.2s; }
 
