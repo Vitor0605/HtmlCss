@@ -7,8 +7,8 @@
     width: 200px;
     margin-left: 20%;
     border-radius: 10px;
-    box-shadow: 12px 15px black,
-    -12px -15px gray; 
+    box-shadow: 5px 5px black,
+    -5px -5px gray; 
 }
 
 .seta {
