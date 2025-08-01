@@ -13,13 +13,13 @@ body {
     width: 200px;
     margin-left: 20%;
     border-radius: 10px;
-    box-shadow: 5px 5px black,
-    -5px -5px gray; 
+    box-shadow: 5px 5px 5px black,
+    -5px -5px 5px gray; 
 }
 
 .Eu:hover {
-    box-shadow: 5px 5px gray,
-    -5px -5px black; 
+    box-shadow: 5px 5px 5px gray,
+    -5px -5px 5px black; 
 }
 
 
