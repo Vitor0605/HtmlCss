@@ -29,6 +29,20 @@ body {
     right: 280px;
     top: 150px;
     border-radius: 10px;
+    animation: move-lados 2s linear infinite;
+}
+
+@keyframes move-lados {
+    0% {
+        left: 400px;
+    }
+    50% {
+        left: 420px;
+    }
+    100% {
+        left: 400px;
+    }
+    
 }
 
 .seta:hover {
@@ -79,4 +93,5 @@ h2 {
     h1 span:nth-child(6) { transition-delay: 0.25s; }
     h1 span:nth-child(7) { transition-delay: 0.3s; }
     h1 span:nth-child(8) { transition-delay: 0.35s; }
+
 
