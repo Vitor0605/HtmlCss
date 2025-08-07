@@ -63,12 +63,12 @@ h2 {
     right: 150px;
     top: 220px; 
     text-decoration: none;
-    color: orange;
+    color: black;
 }
 
     .link:hover {
       font-size: 20px;
-      color: black;
+      color: orange;
     }
 
      h1 span {
@@ -88,6 +88,7 @@ h2 {
     h1 span:nth-child(6) { transition-delay: 0.25s; }
     h1 span:nth-child(7) { transition-delay: 0.3s; }
     h1 span:nth-child(8) { transition-delay: 0.35s; }
+
 
 
 
