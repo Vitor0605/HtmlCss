@@ -37,7 +37,7 @@ body {
         right: 280px;
     }
     50% {
-        right: 270px;
+        right: 260px;
     }
     100% {
         right: 280px;
@@ -88,6 +88,7 @@ h2 {
     h1 span:nth-child(6) { transition-delay: 0.25s; }
     h1 span:nth-child(7) { transition-delay: 0.3s; }
     h1 span:nth-child(8) { transition-delay: 0.35s; }
+
 
 
 
