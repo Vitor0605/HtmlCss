@@ -34,13 +34,13 @@ body {
 
 @keyframes move-lados {
     0% {
-        left: 400px;
+        right: 280px;
     }
     50% {
-        left: 420px;
+        right: 270px;
     }
     100% {
-        left: 400px;
+        right: 280px;
     }
     
 }
@@ -93,5 +93,6 @@ h2 {
     h1 span:nth-child(6) { transition-delay: 0.25s; }
     h1 span:nth-child(7) { transition-delay: 0.3s; }
     h1 span:nth-child(8) { transition-delay: 0.35s; }
+
 
 
